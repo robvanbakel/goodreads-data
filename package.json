@@ -35,6 +35,10 @@
     "shelves",
     "rss"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robvanbakel/goodreads-data.git"
+  },
   "license": "MIT",
   "dependencies": {
     "fast-xml-parser": "^5.5.9",
