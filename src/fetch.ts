@@ -63,7 +63,7 @@ export async function getData(userId: string, options: GetDataOptions = {}): Pro
   }
 
   const xml = await response.text();
-  const raw: unknown = parser.parse(xml);
+  const raw = parser.parse(xml);
   const { rss } = RawRssSchema.parse(raw);
   const { channel } = rss;
 
